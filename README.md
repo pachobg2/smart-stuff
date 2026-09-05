@@ -9,6 +9,7 @@ of how the others relate.
 
 | Repo | Board | What it is | Visibility |
 |---|---|---|---|
+| [door_sensor](https://github.com/pachobg2/door_sensor) | ESP32-C3 | Battery-powered reed-switch door sensor, deep-sleep on level-change wake + heartbeat, remote (software-switch) OTA | Public |
 | [energy_meter](https://github.com/pachobg2/energy_meter) | ESP32-C3 | RS485 Modbus bridge for an ORNO OR-WE-526 energy meter, with firmware-side day/night tariff accounting | Public |
 | [plugin_light](https://github.com/pachobg2/plugin_light) | ESP32-C3 | Dimmable plug-in light, PWM dimmer output | Public |
 | [smart_switch](https://github.com/pachobg2/smart_switch) | ESP32-C3 | Mains relay switch with physical button + WS2812 status LED | Public |
