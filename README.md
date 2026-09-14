@@ -17,6 +17,7 @@ of how the others relate.
 | [sonoff_basic](https://github.com/pachobg2/sonoff_basic) | ESP8266 | Sonoff Basic relay switch, ported from ESPHome | Public |
 | [temp_humidity_sensor](https://github.com/pachobg2/temp_humidity_sensor) | ESP32-C3 | Battery-powered SHTC3 temp/humidity sensor, deep-sleep between reports | Public |
 | [temp_humidity_sensor_zdravkovec](https://github.com/pachobg2/temp_humidity_sensor_zdravkovec) | ESP32-C3 | Same firmware as `temp_humidity_sensor`, deployed at the Zdravkovec site | Private |
+| [temp_humidity_sensor_v4](https://github.com/pachobg2/temp_humidity_sensor_v4) | ESP32-C3 | Fork of `temp_humidity_sensor` with a self-service WiFiManager web setup portal instead of a compiled config.h -- one firmware image, configured per-unit from a phone | Public |
 | [toshiba_ac_bridge](https://github.com/pachobg2/toshiba_ac_bridge) | ESP32-C5 | UART bridge to a Toshiba Suzumi/Shorai/Seiya AC's internal wifi-module connector | Public |
 
 All tagged with the `smart-stuff` topic on GitHub, so they also show up
