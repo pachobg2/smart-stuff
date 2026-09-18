@@ -18,7 +18,8 @@ of how the others relate.
 | [sonoff_basic](https://github.com/pachobg2/sonoff_basic) | ESP8266 | Sonoff Basic relay switch, ported from ESPHome | Public |
 | [temp_humidity_sensor](https://github.com/pachobg2/temp_humidity_sensor) | ESP32-C3 | Battery-powered SHTC3 temp/humidity sensor, deep-sleep between reports | Public |
 | [temp_humidity_sensor_zdravkovec](https://github.com/pachobg2/temp_humidity_sensor_zdravkovec) | ESP32-C3 | Same firmware as `temp_humidity_sensor`, deployed at the Zdravkovec site | Private |
-| [temp_humidity_sensor_v4](https://github.com/pachobg2/temp_humidity_sensor_v4) | ESP32-C3 | Fork of `temp_humidity_sensor` with a self-service WiFiManager web setup portal instead of a compiled config.h -- one firmware image, configured per-unit from a phone | Public |
+| [TH_2_v4](https://github.com/pachobg2/TH_2_v4) | ESP32-C3 | Fork of `temp_humidity_sensor` with a self-service WiFiManager web setup portal instead of a compiled config.h -- one firmware image, configured per-unit from a phone. Renamed from `temp_humidity_sensor_v4` | Public |
+| [TH_2_v4_L](https://github.com/pachobg2/TH_2_v4_L) | ESP32-C3 | "TH-2 Lite" -- sibling of `TH_2_v4` for HW 1.2 (no setup button): OTA/setup/factory-reset are retained MQTT switches instead of button-hold gestures. Locked in lockstep with `TH_2_v4` -- see this fleet's `CLAUDE.md` | Public |
 | [toshiba_ac_bridge](https://github.com/pachobg2/toshiba_ac_bridge) | ESP32-C5 | UART bridge to a Toshiba Suzumi/Shorai/Seiya AC's internal wifi-module connector | Public |
 
 All tagged with the `smart-stuff` topic on GitHub, so they also show up
@@ -50,6 +51,12 @@ whether the same fix applies to the others:
   broker via that project's own config file, kept as a separate repo (and
   private, since it documents that site's specific network) rather than a
   branch or build flag.
+- **Multi-hardware sibling**: `TH_2_v4` and `TH_2_v4_L` are a different
+  kind of pair — same firmware logic, but forked because HW 1.2 lacks a
+  physical setup button, so OTA/setup/factory-reset had to move to MQTT
+  switches. Kept as separate repos, locked together on version numbers
+  (see `TH_2_v4_L`'s trailing `l`) — this fleet's `CLAUDE.md` has the
+  standing rule for keeping them in sync going forward.
 
 The local working directory these are all checked out under also has a
 `CLAUDE.md` (not published, kept local) documenting the standing
