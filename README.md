@@ -22,6 +22,7 @@ of how the others relate.
 | [TH_2_v4](https://github.com/pachobg2/TH_2_v4) | ESP32-C3 | Fork of `temp_humidity_sensor` with a self-service WiFiManager web setup portal instead of a compiled config.h -- one firmware image, configured per-unit from a phone. Renamed from `temp_humidity_sensor_v4` | Public |
 | [TH_2_v4_L](https://github.com/pachobg2/TH_2_v4_L) | ESP32-C3 | "TH-2 Lite" -- sibling of `TH_2_v4` for HW 1.2 (no setup button): OTA/setup/factory-reset are retained MQTT switches instead of button-hold gestures. Locked in lockstep with `TH_2_v4` -- see this fleet's `CLAUDE.md` | Public |
 | [toshiba_ac_bridge](https://github.com/pachobg2/toshiba_ac_bridge) | ESP32-C5 | UART bridge to a Toshiba Suzumi/Shorai/Seiya AC's internal wifi-module connector | Public |
+| [ipod_emulator](https://github.com/pachobg2/ipod_emulator) | ESP32 (classic) | Hyundai i30 FD (2009) iPod emulator: Bluetooth A2DP/AVRCP from the phone, head-unit iPod serial link for steering-wheel control | Private |
 
 All tagged with the `smart-stuff` topic on GitHub, so they also show up
 together on [github.com/topics/smart-stuff](https://github.com/topics/smart-stuff)
